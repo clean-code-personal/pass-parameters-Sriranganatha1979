@@ -8,7 +8,7 @@ struct Image {
 
 class ImageBrightener {
     private:
-        Image m_inputImage;
+        Image& m_inputImage;
     public:
         ImageBrightener(Image& inputImage);
         bool ValidateImage();
